@@ -247,6 +247,7 @@ setup(
         'packaging',
         'python-magic',
         'pyasyncore; python_version>="3.12"',
+        'pyperclip',
         # Required by uinput_interface.py, which is used on Wayland
         # (both GNOME and KDE) regardless of front end. Neither is
         # declared here currently, so a fresh `pip install .` on a
